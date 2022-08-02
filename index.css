@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #967936;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #d1141c;
+    border-radius: 20px;
+}
+
+a{
+    color: #d1141c;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.header a:hover{
+    color: white;
+    background-color: #d1141c;
+}
+
+.header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C7A046;
+    width: 100%;
+    position: fixed;
+    
+   
+}
+
+.logo{
+    height: 80%;
+    cursor: pointer;
+}
+
+.list-nav{
+    display: flex;
+    gap: 40px;
+}
+#section-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-color: #C7A046;
+}
+
+.img-saitama-hero{
+    width: 25%;
+}
+
+.img-saitama-hero:hover{
+    transform: scale(1.1);
+}
+
+.container-inicio{
+    width: 45%;
+}
+
+.cointainer-inicio img{
+    width: 70%;
+}
+
+#section-inicio p{
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-left: 9px;
+}
+
+.container-inicio button {
+    width: 50%;
+    height: 50px;
+    background-color: #d1141c;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 30px;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+.button-hero:hover{
+    transform: scale(1.2);
+}
+
+#section-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #e1baa8;
+    gap: 80px;
+}
+
+.img-info{
+    width: 25%;
+}
+
+.img-info:hover{
+    transform: scale(1.1);
+    transform: skewX(-24deg);
+}
+
+.container-info{
+    width: 50%;
+    border-radius: 12px;
+    background-color: #e1baa8;
+    padding: 12px;
+} 
+
+.container-info p{
+    font-size: 1.25em;
+    letter-spacing: 0.5px;
+}
